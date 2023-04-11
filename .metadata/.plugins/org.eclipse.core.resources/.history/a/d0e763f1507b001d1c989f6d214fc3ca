@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+let output =''
+
+for(let i = 1; i < 15; i++){
+	for (let j = 15; j>i; j--){
+		output +=''
+	}
+	for(let k = 0; k<2*1-1; k++){
+		output+='*'
+	}
+	output += '\n'
+}
+</script>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

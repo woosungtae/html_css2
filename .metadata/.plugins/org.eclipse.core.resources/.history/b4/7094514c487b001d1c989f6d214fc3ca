@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script>
+ let i = 0
+ while(true){
+	 alert(`${i}번째 반복입니다`)
+	 i++
+	 if(i===10)
+		 break;
+	
+	 
+ }
+</script>
+</head>
+<body>
+
+</body>
+</html>

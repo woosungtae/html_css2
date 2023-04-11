@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+const rawInput = prompt('숫자를 입력해 주세요.')
+
+const a = Number(rawInput)
+const b = a * 2
+
+alert(`${a}곱하기 ${a}는 ${b} 입니다.`)
+</script>
+
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

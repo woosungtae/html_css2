@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<script>
+function min(first, ...resta){
+	let output
+	let itema
+	
+	if(Array.isArray(first)){
+		output = first[0]
+		itema = first
+	}else if(typeof(first)==='member'){
+		output = first
+		itema = resta
+	}
+	for(const itemb of itema){
+		 if(output>itemb){
+			 output = itemb
+		 }
+		}
+		return output
+	} 
+	
+	console.log(`min(배열): ${min([52,273,32,103,275,24,57])}`)
+	console.log(`min(숫자, ...): ${min([52,273,32,103,275,24,57])}`)
+	
+
+</script>
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

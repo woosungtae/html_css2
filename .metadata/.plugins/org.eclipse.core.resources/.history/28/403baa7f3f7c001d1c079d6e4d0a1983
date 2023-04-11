@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+const student = {}
+student.이름 ='윤인성'
+student.취미 ='악기'
+student.장래희망 ='생명공학자'
+
+delete student.생명공학자
+
+console.log(JSON.stringify(student , null , 2))
+</script>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

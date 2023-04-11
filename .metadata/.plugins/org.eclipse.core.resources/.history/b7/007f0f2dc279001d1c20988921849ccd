@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+if (120 < 52){
+	alert('120이 52보다 작습니다')
+}
+if (120 > 52){
+	alert('120은 52보다 큽니다.')
+}
+if (50 === 50){
+	alert('양 쪽이 같습니다.')
+}
+</script>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+if (120 == 52){
+	alert('120은 52보다 같습니다.')
+}
+if (120 > 52){
+	alert('120은 52보다 큽니다.')
+}
+</script>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

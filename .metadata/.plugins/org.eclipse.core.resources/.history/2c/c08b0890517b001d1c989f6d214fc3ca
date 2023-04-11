@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script>
+// let 변수를 선언합니다.
+let output = ''
+
+for (let j = 15; j > 15; j--) {
+for (let i = 1; i < 15; i++) {
+output += ' '
+}
+for (let k = 0; k < 2 * i - 1; k++) {
+output += '*'
+}
+output += '\n'
+}
+// 출력합니다.
+console.log(output)
+</script>
+</head>
+<body></body>
+</html>
